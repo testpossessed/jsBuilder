@@ -1,0 +1,3 @@
+[submodule "jsBuilder-npm"]
+	path = jsBuilder-npm
+	url = https://github.com/testpossessed/jsBuilder-npm.git
