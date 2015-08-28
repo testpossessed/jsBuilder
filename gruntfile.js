@@ -37,7 +37,7 @@ module.exports = function(grunt) {
                         }
                     }
                 },
-                specs:   './specs/**'
+                specs:   './specs/*.js'
             },
         },
         uglify:         {
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
         watch:          {
             all:   {
                 files: [
-                    'specs/**/*.js',
+                    'specs/*.js',
                     'src/index.js'
                 ],
                 tasks: ['karma:browser:run',
@@ -96,7 +96,7 @@ module.exports = function(grunt) {
                         'copy']
             },
             grunt: {
-                files: ['gruntfile.js']
+                files: ['gruntfile.js', 'karma.conf.js']
             }
         }
     });
