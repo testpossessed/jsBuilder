@@ -11,9 +11,9 @@ Using some soft of builder can make test code much more readable and expressive,
 
 jsBuilder is designed to work in browsers with or without RequireJS or with Node.js.  It hasn't been fully tested with RequireJS as I don't use it myself, but I hope to do more testing with it at some point.
 
-Install with npm
+Install with npm.  Please not the name is different as there was already a jsbuilder module registered with npm
 ```
-npm install jsbuilder --save-dev
+npm install jsbuilder-node --save-dev
 ```
 
 Install with bower
@@ -39,7 +39,7 @@ In a browser it is made available as **builder** in the global space aka **windo
 In Node a new instance is exported by the modules so you use something like
 
 ```javascript
-var builder = require('jsbuilder');
+var builder = require('jsbuilder-node');
 ```
 
 If you are using RequireJS you will declare a dependency something like this

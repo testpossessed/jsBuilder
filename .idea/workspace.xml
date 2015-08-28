@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1641001d-ee65-4c8d-9447-3ec9d1b04161" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.nuspec" afterPath="$PROJECT_DIR$/package.nuspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsBuilder-npm" afterPath="$PROJECT_DIR$/jsBuilder-npm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jsBuilder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jsBuilder-npm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,11 +58,11 @@
         <option value="$PROJECT_DIR$/specs/collectionBuilderWithTemplateSpec.js" />
         <option value="$PROJECT_DIR$/specs/collectionBuilderSplitConfigSpec.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/specs/builderNestingSpec.js" />
         <option value="$PROJECT_DIR$/jsBuilder-bower/bower.json" />
-        <option value="$PROJECT_DIR$/jsBuilder-npm/package.json" />
         <option value="$PROJECT_DIR$/package.nuspec" />
+        <option value="$PROJECT_DIR$/jsBuilder-npm/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -474,17 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64314926">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsBuilder-npm/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -543,6 +534,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42236024">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37909517">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
