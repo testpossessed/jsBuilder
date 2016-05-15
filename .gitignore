@@ -3,3 +3,5 @@ node_modules
 bower_components
 Results
 jsBuilder.1.0.1.nupkg
+.idea/misc.xml
+.idea/workspace.xml
