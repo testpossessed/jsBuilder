@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
 	<id>jsBuilder</id>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<authors>Mike Hanson</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
@@ -11,7 +11,8 @@
     <projectUrl>https://github.com/testpossessed/jsBuilder</projectUrl>
   </metadata>
   <files>
-	<file src='jsBuilder-bower\jsBuilder.js' target='Scripts' />
-	<file src='jsBuilder-bower\jsBuilder.min.js' target='Scripts' />
+	<file src='jsBuilder.js' target='Scripts' />
+	<file src='jsBuilder.min.js' target='Scripts' />
+	<file src='jsBuilder.d.ts' target='Scripts' />
   </files>
  </package>

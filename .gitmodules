@@ -1,6 +1,0 @@
-[submodule "jsBuilder-bower"]
-	path = jsBuilder-bower
-	url = https://github.com/testpossessed/jsBuilder-bower.git
-[submodule "jsBuilder-npm"]
-	path = jsBuilder-npm
-	url = https://github.com/testpossessed/jsBuilder-npm.git

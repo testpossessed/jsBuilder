@@ -1,16 +1,37 @@
 {
-  "name": "jsBuilderBuilder",
-  "version": "1.0.0",
+  "name": "jsbuilder",
+  "version": "1.0.2",
   "homepage": "https://github.com/testpossessed/jsBuilder",
   "authors": [
     "Mike Hanson <mike@testpossessed.com>"
   ],
-  "description": "Build and test jsBuilder for distribution via npm, bower and nuget",
+  "description": "Test data builder inspired by NBuilder",
+  "main": "jsBuilder.js",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "keywords": [
+    "testing",
+    "mocks",
+    "fakes",
+    "builders",
+    "data"
+  ],
   "license": "MIT",
-  "private": true,
   "ignore": [
-    "**/.*",
     "node_modules",
-    "bower_components"
-  ]
+    "bower_components",
+    "specs",
+    "src",
+    "package.json",
+    "gruntfile.js",
+    "*.nu*",
+    "*.conf.js",
+    "index.*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/testpossessed/jsBuilder"
+  }
 }

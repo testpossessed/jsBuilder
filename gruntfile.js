@@ -2,8 +2,8 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg:            grunt.file.readJSON('package.json'),
         bumpup:         {
-            files: ['jsBuilder-bower/bower.json',
-                    'jsBuilder-npm/package.json']
+            files: ['bower.json',
+                    'package.json']
         },
         nugetpack:      {
             dist: {
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
             },
             lib:     {
                 src:  ['src/index.js'],
-                dest: 'jsBuilder-bower/jsBuilder.min.js'
+                dest: 'jsBuilder.min.js'
             }
         },
         copy:           {
@@ -58,18 +58,17 @@ module.exports = function(grunt) {
                         expand:  true,
                         cwd:     'src',
                         src:     ['index.js'],
-                        dest:    'jsBuilder-bower/',
                         filter:  'isFile',
                         flatten: true,
                         rename:  function(dest, src) {
-                            return dest + 'jsBuilder.js';
+                            return 'jsBuilder.js';
                         }
                     },
                     {
                         expand:  true,
                         cwd:     'src',
                         src:     ['index.js'],
-                        dest:    'jsBuilder-npm/',
+                        dest:    './',
                         filter:  'isFile',
                         flatten: true
                     }
